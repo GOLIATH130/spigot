@@ -1,8 +1,61 @@
-[20:07:29] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.5.0-1025-azure (amd64)
-[20:07:29] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-132-ver/1.21.1@b48403b (2024-11-21T10:14:27Z) for Minecraft 1.21.1
-[20:07:29] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:07:29] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[20:07:31] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Remapping server...
-[20:07:43] [ServerMain/WARN]: Failed to load eula.txt
-[20:07:43] [ServerMain/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
-[20:07:47] [Paper Plugin Remapper Thread - 1/INFO]: [ReobfServer] Done remapping server in 15611ms.
+[20:38:52] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-LTS; Microsoft Microsoft-10376803) on Linux 6.5.0-1025-azure (amd64)
+[20:38:52] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-132-ver/1.21.1@b48403b (2024-11-21T10:14:27Z) for Minecraft 1.21.1
+[20:38:52] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[20:38:53] [ServerMain/INFO]: [PluginInitializerManager] Initialized 3 plugins
+[20:38:53] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (3):
+ - Geyser-Spigot (2.6.0-SNAPSHOT), ViaVersion (5.2.2-SNAPSHOT), floodgate (2.2.3-SNAPSHOT (b114-83fbd6e))
+[20:39:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[20:39:03] [ServerMain/INFO]: Loaded 1290 recipes
+[20:39:04] [ServerMain/INFO]: Loaded 1399 advancements
+[20:39:04] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[20:39:04] [Server thread/INFO]: Loading properties
+[20:39:04] [Server thread/INFO]: This server is running Paper version 1.21.1-132-ver/1.21.1@b48403b (2024-11-21T10:14:27Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[20:39:05] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[20:39:06] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[20:39:06] [Server thread/INFO]: Using 4 threads for Netty based IO
+[20:39:07] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[20:39:07] [Server thread/INFO]: Default game type: SURVIVAL
+[20:39:07] [Server thread/INFO]: Generating keypair
+[20:39:07] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:39:08] [Server thread/INFO]: Using epoll channel type
+[20:39:08] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[20:39:08] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[20:39:09] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[20:39:10] [Server thread/INFO]: [floodgate] Took 1,411ms to boot Floodgate
+[20:39:10] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.2.2-SNAPSHOT
+[20:39:10] [Server thread/INFO]: [ViaVersion] ViaVersion 5.2.2-SNAPSHOT is now loaded. Registering protocol transformers and injecting...
+[20:39:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[20:39:11] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[20:39:12] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.6.0-SNAPSHOT
+[20:39:13] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[20:39:13] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[20:39:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:39:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:39:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:39:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:39:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:39:13] [Server thread/INFO]: Preparing level "world"
+[20:39:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:39:16] [Server thread/INFO]: Time elapsed: 2347 ms
+[20:39:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[20:39:17] [Server thread/INFO]: Time elapsed: 525 ms
+[20:39:17] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[20:39:17] [Server thread/INFO]: Time elapsed: 239 ms
+[20:39:17] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.3-SNAPSHOT (b114-83fbd6e)
+[20:39:18] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.2.2-SNAPSHOT
+[20:39:18] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[20:39:18] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.6.0-SNAPSHOT
+[20:39:18] [Server thread/INFO]: [spark] Starting background profiler...
+[20:39:19] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:39:19] [Server thread/INFO]: [Geyser-Spigot] 
+[20:39:19] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.6.0-b750 (git-master-98f9bf6)
+[20:39:19] [Server thread/INFO]: [Geyser-Spigot] 
+[20:39:19] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[20:39:27] [epollEventLoopGroup-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[20:39:28] [Server thread/INFO]: [Geyser-Spigot] Done (8.822s)! Run /geyser help for help!
+[20:39:28] [Server thread/INFO]: Done preparing level "world" (15.173s)
+[20:39:28] [Server thread/INFO]: Running delayed init tasks
+[20:39:28] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[20:39:28] [Server thread/INFO]: Done (37.263s)! For help, type "help"
+[20:39:28] [Server thread/INFO]: Timings Reset
+[20:39:28] [Server thread/INFO]: [ViaVersion] You are running a development version of the plugin, please report any bugs to GitHub.
